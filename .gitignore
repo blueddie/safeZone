@@ -3,3 +3,7 @@ yolov8n.pt
 data
 data.yaml
 runs
+bus.jpg
+*.pt
+*.yaml
+.env
