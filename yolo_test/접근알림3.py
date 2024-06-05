@@ -8,6 +8,7 @@ model = YOLO("yolov8n.pt")  # load a pretrained model
 
 # 비디오 파일 경로 설정
 video_path = "C:\\safezone\\data\\temp\\접근알림.mp4"
+# video_path = "C:\\safezone\\data\\temp\\깊이정보.mp4"
 output_path = "C:\\safezone\\data\\temp\\result1.mp4"
 
 # 비디오 캡처 객체 생성
