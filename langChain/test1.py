@@ -5,7 +5,7 @@ import numpy as np
 from PIL import ImageFont, ImageDraw, Image
 from langchain_community.chat_models import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
-from langchain_core.chains import RunnableSequence
+from langchain.chains import LLMChain
 
 # OpenAI API 키 설정
 # os.environ["OPENAI_API_KEY"] = "your_openai_api_key"
