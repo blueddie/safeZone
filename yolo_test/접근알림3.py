@@ -17,6 +17,7 @@ cap = cv2.VideoCapture(video_path)
 # 비디오 저장 객체 설정
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 fps = cap.get(cv2.CAP_PROP_FPS)  # 원본 비디오의 프레임 속도 가져오기
+
 slow_fps = fps / 2  # 비디오 속도를 절반으로 줄이기
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
